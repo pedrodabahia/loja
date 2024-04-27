@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+.cardConteiner{
+	width: 220px;
+	height: 290px;
+	border: 2px solid rgb(220,220,220);
+	border-radius:10px;
+	box-shadow: 0px 5px 10px rgba(150,150,150,0.7);
+	padding: 1.4% 1% ;
+	margin: 1%;
+	margin-top: 4%;
+	align-items: center;
+	background-color: white;
+}
+
+.cardConteiner .imagemCard{
+	width: 90%;
+	height: 40%;
+	padding: 7% 5%;
+	border-bottom: 2px solid rgb(150,000,200);
+	;
+}
+
+.cardConteiner .imagemCard img{
+	max-height: 200px;
+	max-width: 120px;
+	width: auto;
+	height: auto;
+}
+
+.cardConteiner h1{
+	font-size: 1.09vw;
+	font-weight: 500;
+	text-align: left;
+	margin-top: 2%;
+
+}
+.cardConteiner h2{
+	font-size:0.9vw;
+	font-weight: 400;
+	text-align: left;
+	margin-top: 2%;
+	color: rgb(100,100,100);
+
+}
+.cardConteiner .preco{
+	text-align: center;
+	margin: 4% 0;
+	font-size: 1.8vw;
+	color: rgb(150,000,200);
+	text-decoration: underline;
+}
+.cardConteiner button{
+	margin: 3% auto;
+	width: 80%;
+	height: 13%;
+	background-color: rgb(150,000,200);
+	border:none;
+	border-radius: 10px;
+	color: white;
+	font-weight: 700;
+	font-size: 1.3vw;
+	cursor: pointer;
+	transition:1s;
+}
+.cardConteiner button:hover{
+	background-color: rgb(200,000,250);
+	
+	transition:1s;
+}
+

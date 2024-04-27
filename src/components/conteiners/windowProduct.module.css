@@ -1,0 +1,149 @@
+.poupConteiner{
+	width: 40vw;
+	height:32vw;
+	background-color: rgb(100,000,170);
+	position: fixed;
+	top: 3vw;
+	left: 30vw;
+	padding: 1%;
+
+}
+
+.conteiner{
+	width:98%;
+	height: 98%;
+	border:4px solid white;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.poupConteiner .conteiner div{
+	margin: 2.5%;
+}
+
+.poupConteiner .image{
+	background-color: rgb(255,255,255);
+	width: 45%;
+	height: 52%;
+	border-radius: 2%;
+}
+.poupConteiner .image img{
+
+	max-height: 100%;
+	max-width: 100%;
+	border-radius: 0%;	
+	padding-bottom: 1vw;
+	border-bottom: 2px solid white;
+
+
+}
+
+.poupConteiner .title{
+	height: 42%;
+	width: 45%;
+}
+
+.poupConteiner .conteiner .title h1{
+	color: white;
+	font-size: 1.7vw;
+	font-weight: 700;
+	border-bottom: 2px solid white;
+	padding-bottom: 4%;
+	margin-bottom: 7%;
+}
+
+.poupConteiner .title h2{
+	color: white;
+	font-size: 1.9vw;
+	font-weight: 500;
+}
+
+.poupConteiner .title h2:last-child{
+	color: white;
+	margin-top: 7%;
+	font-size: 1.1vw;
+	font-weight: 500;
+	text-align: left;
+	font-weight: 600;
+}
+.poupConteiner .title .precoFalse{
+	color: gold;
+	font-size: 1vw;
+	margin-bottom: -4%;
+	text-decoration: line-through;
+}
+
+.poupConteiner .conteiner .comprar{
+	width: 45%;
+	height: 12%;
+	margin-top: 5%;
+	margin-left: 0;
+	margin-bottom: 10%;
+	text-align:left;
+}
+
+.poupConteiner .conteiner .comprar input{
+width: 15%;
+padding: 2%;
+margin: 4%;
+margin-left: 2%;
+background-color: rgb(100,000,170);
+color: white;
+border:2px solid white;
+border-radius: 10px;
+font-weight: 700;
+}
+
+.poupConteiner .conteiner .comprar label{
+width: 30%;
+color: white;
+font-weight: 700;
+margin-left: 10%
+}
+
+.poupConteiner .conteiner .comprar button{
+font-size: 1.2vw;
+padding: 7% 3%;
+font-weight: 700;
+width: 80%;
+background-color: white;
+color:rgb(100,000,170);
+display: block;
+}
+
+.tableDesc{
+	width: 45%;
+	text-align:left;
+	margin-top: none;
+}
+.tableDesc ul li{
+	list-style: none;
+	color: rgb(255,255,255);
+	padding: 2%;
+	border:3px solid rgb(205,205,205);
+	border-top: none;
+	background-color: rgb(190,190,190);
+	font-size: 0.85vw;
+	font-weight: 700;
+}
+.tableDesc ul li:first-child{
+	border-top:3px solid rgb(255,255,255); 
+}
+.tableDesc ul li u{
+	color: rgb(100,000,170)
+}
+
+.closed{
+	background-color: white;
+	color: rgb(100,000,170);
+	position: absolute;
+	width: 3.5vw;
+	padding: 0.5vw 0;
+	font-size: 2vw;
+	font-weight: 700;
+	border-radius: 50%;
+	text-align: center;
+	right: -1vw;
+	top: -1vw;
+	cursor: pointer;
+}

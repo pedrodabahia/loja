@@ -1,0 +1,52 @@
+
+nav{
+	background-color: red;
+	align-items: center;
+	padding: 2% 0;
+	background-color: rgb(100,000,170);
+}
+
+nav div{
+	width: 50%;
+	display: inline-block;
+	align-items: center;
+}
+
+nav img{
+	height: 2.5vw;
+}
+nav .carConteiner{
+	width: 7vw;
+	margin-right: -33%;
+	position: relative;
+	top: -2vw;
+}
+
+nav .carConteiner .carr{
+	background-color: white;
+	width: 2.7vw;
+	padding: 1vw;
+	margin-right: -40%;
+	border-radius: 50%;
+	float: right;
+}
+nav .title h1{
+	font-size: 3.5vw;
+	text-align: center;
+	padding-left: 4vw;
+	height: 100%;
+	width: 45%;
+	margin-left: 0%;
+	color: white;
+	font-family: sans-serif;
+}
+nav .carConteiner span{
+	color: rgb(100,000,170);
+	background-color: gold;
+	padding: 1vw 1.2vw;
+	border-radius: 50%;
+	position: relative;
+	top: 4vw;
+	left: 3vw;
+	font-weight: 700;
+}
